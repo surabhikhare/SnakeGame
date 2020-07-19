@@ -27,10 +27,6 @@ public class Setup extends PApplet {
 		 background(0);
 		 fill(255);
 		 
-		 
-		 
-		
-		 
 		 for(int i=0;i<X_pos.size();i++) {
 			 rect(X_pos.get(i)*block,Y_pos.get(i)*block,block,block);
 		 }
